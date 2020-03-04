@@ -1,0 +1,367 @@
+/* Navbar */
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+
+/* utility */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    background: #f17e31;
+    border-color: #f17e31;
+}
+
+
+/* Slide Show */
+
+.carousel-item {
+    height: 500px;
+    text-align: center;
+}
+
+.carousel-item .tombol {
+    text-align: left;
+}
+
+.carousel-item img {
+    margin-top: -140px;
+}
+
+.carousel-item .display-4 {
+    margin-top: -300px;
+    color: #373234;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carousel-item .display-4 span {
+    font-weight: 400;
+}
+
+
+/* workingspace */
+
+.font-one {
+    margin-top: 120px;
+    font-size: 25px;
+    font-family: Viga;
+    text-align: center;
+}
+
+.workingspace {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.workingspace h3 {
+    font-size: 45px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.workingspace h3 span {
+    font-weight: 500;
+}
+
+.workingspace p {
+    font-size: 18px;
+    color: #acacac;
+    font-weight: 200;
+    margin: 30px 0;
+}
+
+.workingspace h3 {
+    color: #000;
+}
+
+
+/* layanan */
+
+.text span {
+    font-size: 15px;
+}
+
+.box {
+    margin-top: 120px;
+}
+
+.box-part {
+    background: #FFF;
+    border-radius: 0;
+    padding: 50px 10px;
+    margin: 30px 0px;
+    box-shadow: 1px 1px 2px 1px rgba(0.3, 0.3, 0.3, 0.2)!important;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+.fa {
+    color: #f17e31;
+}
+
+.font-layanan {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 52px;
+    font-family: Viga;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* testimonial */
+
+.testimonial {
+    padding: 40px;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #1B2727;
+}
+
+.testimonial h1 {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 52px;
+    font-family: Viga;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.pic {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: auto;
+}
+
+.pic img {
+    width: 100%;
+    ;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.pic .fa {
+    position: absolute;
+    top: 0;
+    left: -60px;
+    font-size: 80px;
+}
+
+.testimonial h2 {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.testimonial p {
+    width: 600px;
+    margin: auto;
+    color: #fff;
+}
+
+
+/* akhir testimonial */
+
+
+/* kontak */
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.font-two {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 52px;
+    font-family: Viga;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.contact-form .btnContact {
+    width: 30%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #f17e31;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 30%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* akhir kontak */
+
+
+/* footer */
+
+.footer-top p {
+    color: #999;
+    line-height: 25px;
+}
+
+.footer-top .photo {
+    width: auto;
+    height: 12%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.footer-top h2,
+h3 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-top {
+    background: #111;
+    padding: 80px 0;
+}
+
+.segment-one h3 {
+    font-family: courgette;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-top: 10px 0;
+}
+
+.segment-two h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.segment-two h2::before {
+    content: '|';
+    color: #f17e31;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li {
+    border-bottom: 1px solid rba(255, 255, 255, 0.5);
+    line-height: 40px;
+}
+
+.segment-two ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.segment-three h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.segment-three h2::before {
+    content: '|';
+    color: #f17e31;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: #494949;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a i {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.segment-four h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.segment-four h2::before {
+    content: '|';
+    color: #f17e31;
+    padding-right: 10px;
+}
+
+.segment-four .btnSubmit1 {
+    font-family: inherit;
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.footer-bottom-text {
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+}
+
+
+/* akhir footer */
+
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 32px;
+    }
+    /* .nav-link:hover {
+        border-bottom: 3px solid #f17e31;
+    } */
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #f17e31;
+        width: 50px;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .carousel-item {
+        height: 500px;
+    }
+    .carousel-item .display-4 {
+        font-size: 40px;
+    }
+    .font-one {
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 52px;
+        font-family: Viga;
+        text-align: center;
+    }
+    .workingspace {
+        text-align: left;
+    }
+}
